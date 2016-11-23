@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  background-color: #004400;
+  font-size: 12px;
+}
+  
+  nav {
+  text-align: center;
+  background: #FFFFFF;
+
+ 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000080;
+  font-weight: bold;
+}
+
+nav ul li a.selected {
+  color: #FF0000;
+}
+
+nav ul li {
+  display: inline-block;
+}
+nav ul li {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+
+header {
+  background-image: url("bg.JPG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 400px;
+  color: #fff;
+  font-size:18px;
+}
+
+ #logo {
+  padding: 50px 50px;
+  text-align: right;
+}
+#logo img {
+  max-width: 200px;
+  border-radius: 50px;
+  border: 5px solid #f5f5f5;
+}
+#logo h1 {
+  letter-spacing: 0.15em;
+  color: #fff;
+  text-shadow: 1px 1px 0px #000;
+}
+.container {
+  max-width: 800px;
+  margin: -100px auto 0;
+  background-color: #fff;
+}
+section {
+  padding: 30px 20px;
+}
+section h2 {
+  padding: 10px 0 20px 0;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+footer {
+  padding: 5px 0;
+  font-size: 93%;
+  text-align: center;
+  background-color: #ccc;
+  color: #666;
+}
